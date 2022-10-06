@@ -7,10 +7,16 @@
     <class name="Department" table="test_department" lazy="false">
         <id name="departmentId" type="int" column="department_id" unsaved-value="0">
             <generator class="native" />
+            <param name="sequence">test_department_department_id_seq</param>
         </id>
         <discriminator column="department_id" insert="false" />
         <property name="uuid" type="java.lang.String" column="uuid" length="38" unique="true" />
         <property name="name" type="java.lang.String" column="name" length="255" unique="true" />
         <property name="description" type="java.lang.String" column="description" length="255" />    
     </class>
+    <mappingFiles>
+		Department.hbm.xml
+	</mappingFiles>
+   
+   
 </hibernate-mapping>
