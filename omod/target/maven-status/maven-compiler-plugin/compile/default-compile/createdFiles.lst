@@ -1,0 +1,4 @@
+org/openmrs/module/test/fragment/controller/UsersFragmentController.class
+org/openmrs/module/test/web/controller/TestController.class
+org/openmrs/module/test/web/controller/AddDepartmentController.class
+org/openmrs/module/test/extension/html/AdminList.class

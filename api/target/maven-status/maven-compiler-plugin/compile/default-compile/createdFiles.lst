@@ -1,0 +1,11 @@
+org/openmrs/module/test/api/impl/TestServiceImpl.class
+org/openmrs/module/test/TestConfig.class
+org/openmrs/module/test/api/dao/TestDao.class
+org/openmrs/module/test/api/DepartmentService.class
+org/openmrs/module/test/Item.class
+org/openmrs/module/test/api/TestService.class
+org/openmrs/module/test/TestActivator.class
+org/openmrs/module/test/api/dao/DepartmentDAO.class
+org/openmrs/module/test/api/impl/DepartmentServiceImpl.class
+org/openmrs/module/test/Department.class
+org/openmrs/module/test/api/dao/HibernateDepartmentDAO.class
